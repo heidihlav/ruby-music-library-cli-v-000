@@ -23,7 +23,7 @@ class MusicLibraryController
       case user_input
       when 'list songs'
         list_songs
-      when user_input == 'list artists'
+      when 'list artists'
         list_artists
         binding.pry
     end
