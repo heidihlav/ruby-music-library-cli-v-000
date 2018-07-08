@@ -8,7 +8,7 @@ class MusicLibraryController
   end
 
   def call
-    user_input = ''
+    # user_input = ''
     while user_input != 'exit'
       puts "Welcome to your music library!"
       puts "To list all of your songs, enter 'list songs'."
@@ -25,6 +25,7 @@ class MusicLibraryController
     case
     when user_input == 'list songs'
       list_songs
+    when user_input == ''
 
     end
   end
