@@ -22,13 +22,13 @@ class MusicLibraryController
       user_input = gets.chomp
     end
 
-    puts case    
-    when user_input == 'list songs'
-      list_songs
-    when user_input == 'list artists'
-      list_artists
-
-    end
+    # puts case    
+    # when user_input == 'list songs'
+    #   list_songs
+    # when user_input == 'list artists'
+    #   list_artists
+    #
+    # end
   end
 
   def list_songs
