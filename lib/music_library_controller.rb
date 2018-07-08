@@ -25,6 +25,7 @@ class MusicLibraryController
         list_songs
       when user_input == 'list artists'
         list_artists
+        binding.pry
     end
    end
   end
