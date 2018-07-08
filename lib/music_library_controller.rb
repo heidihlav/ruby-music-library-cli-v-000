@@ -25,7 +25,7 @@ class MusicLibraryController
     case
     when user_input == 'list songs'
       list_songs
-    when user_input == ''
+    # when user_input == ''
 
     end
   end
