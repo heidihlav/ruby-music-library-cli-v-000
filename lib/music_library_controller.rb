@@ -1,6 +1,5 @@
 require 'pry'
 
-#need to make a case statement. Not sure where but in this file. Look at help resource file
 class MusicLibraryController
 
   def initialize(path = './db/mp3s')
